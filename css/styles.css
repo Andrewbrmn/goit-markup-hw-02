@@ -89,6 +89,19 @@ font-family: 'Raleway';
     text-align: center;
     letter-spacing: 0.03em;
 }
+content .link {
+    box-sizing: border-box;
+    
+        position: absolute;
+        width: 370px;
+        height: 404px;
+        left: 215px;
+        top: 262px;
+    
+        background: #FFFFFF;
+        border: 1px solid #EEEEEE;
+        text-decoration: none;
+}
 .text-list .title {
     color: #212121;
     font-weight: 700;
@@ -201,6 +214,7 @@ font-family: 'Raleway';
     background: #2F303A;
 }
 
+
 .subject .link {
     text-decoration: none;
 }
@@ -208,6 +222,26 @@ font-family: 'Raleway';
 .subject .link:hover,
 .subject .link:focus {
     color: #2196F3;
+}
+.logo-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #000000;
 }
 
 .link.address {
